@@ -2,7 +2,7 @@
 
 # docs.isnow.js
 
-Documentation for **[isnow.js](https://github.com/uplang/isnow.js)** — the `@uplang/isnow` JavaScript library for the [isnow](https://github.com/uplang/isnow) (*DTimpalr*) date/time pattern language.
+Documentation for **[isnow.js](https://github.com/uplang/isnow.js)** — the `@uplang/isnow` JavaScript library for the [isnow](https://github.com/uplang/isnow) (_DTimpalr_) date/time pattern language.
 
 Published at **[uplang.github.io/docs.isnow.js](https://uplang.github.io/docs.isnow.js/)**.
 

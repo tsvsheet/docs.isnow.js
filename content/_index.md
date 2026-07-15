@@ -4,7 +4,7 @@ title: isnow.js
 
 <!-- markdownlint-disable-file MD014 -- shell examples intentionally use a `$` prompt without echoing output -->
 
-**isnow** is a date/time *pattern* language — formally *DTimpalr, a Date/Time Pattern Language for Repetition*. An **isnow** describes anything from a fixed instant to a complex recurrence and answers one question: **does it hold now?**
+**isnow** is a date/time _pattern_ language — formally _DTimpalr, a Date/Time Pattern Language for Repetition_. An **isnow** describes anything from a fixed instant to a complex recurrence and answers one question: **does it hold now?**
 
 `@uplang/isnow` is the JavaScript implementation, sharing its semantics exactly with [isnow.go](https://uplang.github.io/docs.isnow.go/) — both pass the same [conformance corpus](https://github.com/uplang/isnow/tree/main/conformance). Use it in the browser or in Node.
 
@@ -17,15 +17,15 @@ $ npm install @uplang/isnow
 ## Use
 
 ```js
-import { parse, is } from '@uplang/isnow'
+import { parse, is } from "@uplang/isnow";
 
-const p = parse('M,W,F noon')
-p.holds(new Date())          // does it hold now?
-p.canonical                  // "*/*/* Monday,Wednesday,Friday 12:00:00"
-p.explain()                  // "holds at 12:00:00 on Monday,Wednesday,Friday"
-p.next(new Date())           // the next occurrence, as a Date (or null)
+const p = parse("M,W,F noon");
+p.holds(new Date()); // does it hold now?
+p.canonical; // "*/*/* Monday,Wednesday,Friday 12:00:00"
+p.explain(); // "holds at 12:00:00 on Monday,Wednesday,Friday"
+p.next(new Date()); // the next occurrence, as a Date (or null)
 
-is('6', '2026-07-14T06:00:00Z')   // one-shot: true
+is("6", "2026-07-14T06:00:00Z"); // one-shot: true
 ```
 
 ## API

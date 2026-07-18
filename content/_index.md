@@ -4,7 +4,7 @@ title: isnow.js
 
 <!-- markdownlint-disable-file MD014 -- shell examples intentionally use a `$` prompt without echoing output -->
 
-**isnow** is a date/time _pattern_ language — formally _DTimpalr, a Date/Time Pattern Language for Repetition_. An **isnow** describes anything from a fixed instant to a complex recurrence and answers one question: **does it hold now?**
+**isnow** is a date/time _pattern_ language. An **isnow** describes anything from a fixed instant to a complex recurrence and answers one question: **does it hold now?**
 
 `@tsvsheet/isnow` is the JavaScript implementation, sharing its semantics exactly with [isnow.go](https://tsvsheet.github.io/docs.isnow.go/) — both pass the same [conformance corpus](https://github.com/tsvsheet/isnow/tree/main/conformance). Use it in the browser or in Node.
 

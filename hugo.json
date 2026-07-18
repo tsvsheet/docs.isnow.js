@@ -16,6 +16,6 @@
     }
   },
   "params": {
-    "description": "The @tsvsheet/isnow JavaScript library for the isnow (DTimpalr) date/time pattern language."
+    "description": "The @tsvsheet/isnow JavaScript library for the isnow date/time pattern language."
   }
 }

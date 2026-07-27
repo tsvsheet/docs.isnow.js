@@ -2,4 +2,4 @@
 
 # docs.isnow.js
 
-Public documentation site for [`tsvsheet/isnow.js`](https://github.com/tsvsheet/isnow.js), published at [https://tsvsheet.github.io/docs.isnow.js/](https://tsvsheet.github.io/docs.isnow.js/) once public.
+Public documentation for [`tsvsheet/isnow.js`](https://github.com/tsvsheet/isnow.js) — the [isnow](https://github.com/tsvsheet/isnow) date/time pattern language in JavaScript: the JS engine of the normative ANTLR grammar. Published as a [Hugo](https://gohugo.io) site via GitHub Pages at [tsvsheet.github.io/docs.isnow.js](https://tsvsheet.github.io/docs.isnow.js/).
